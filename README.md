@@ -1,16 +1,18 @@
-Этот проект - не просто параллакс-эффект. Это мой личный вызов самому себе: «Смогу ли я оживить статичную картинку?» Ответ - да, и вот что получилось:
-Создал иммерсивную 3D-сцену на чистом JavaScript, где:
+# Interactive 3D Parallax Scene
 
-Мышь управляет перспективой - картина «оживает» при движении курсора
+A lightweight interactive landing scene built with vanilla JavaScript, HTML and CSS.
 
-Программный дождь - каждая капля генерируется и анимируется алгоритмически
+## Highlights
 
-Слоистая глубина - 6 уровней создают объём без использования Three.js
-Зачем я это сделал:
-Разобраться на низком уровне - понять, как работает 3D без готовых библиотек
+- Cursor-driven parallax perspective
+- Dynamically generated rain effect
+- Six independently positioned visual layers
+- No 3D libraries or frameworks
 
-Преодолеть «магию» - превратить сложную CGI-графику в понятный код
+## Tech stack
 
-Доказать себе - что могу освоить любую технологию, если поставлю цель
+JavaScript, HTML, CSS.
 
-Этот пет-проект - не просто «крутая анимация». Это история о том, как я учусь: глубоко, на практике и с результатом, который можно потрогать. ✨
+## Run locally
+
+Open `index.html` in a browser, or serve the project with any static file server.
