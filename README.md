@@ -1,18 +1,19 @@
-# Interactive 3D Parallax Scene
+# Depth — Interactive 3D Scene
 
-A lightweight interactive landing scene built with vanilla JavaScript, HTML and CSS.
+An experimental layered scene built with semantic HTML, CSS 3D transforms, pointer-driven parallax, and a canvas rain effect.
 
 ## Highlights
 
-- Cursor-driven parallax perspective
-- Dynamically generated rain effect
-- Six independently positioned visual layers
-- No 3D libraries or frameworks
+- Six depth layers rendered with `preserve-3d` and `translateZ`
+- Pointer movement synchronized through `requestAnimationFrame`
+- Canvas-based rain overlay
+- Reduced-motion support
+- Responsive viewport sizing
 
 ## Tech stack
 
 JavaScript, HTML, CSS.
 
-## Run locally
+## Live demo
 
-Open `index.html` in a browser, or serve the project with any static file server.
+[Open the GitHub Pages demo](https://kir-dev-flex.github.io/3d/)
