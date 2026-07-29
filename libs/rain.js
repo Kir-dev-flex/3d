@@ -1,7 +1,7 @@
 const canvas = document.querySelector(".layers__rain");
 const context = canvas.getContext("2d");
 const rainToggle = document.querySelector(".hero__button");
-const reduceMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+const rainMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 const dropCount = 140;
 
 let drops = [];
@@ -52,7 +52,7 @@ const animateRain = () => {
   context.clearRect(0, 0, canvas.width, canvas.height);
   drops.forEach((drop) => drop.update());
 
-  if (!reduceMotionQuery.matches && !isPaused) {
+  if (!rainMotionQuery.matches && !isPaused) {
     requestAnimationFrame(animateRain);
   }
 };
